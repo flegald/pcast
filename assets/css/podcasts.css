@@ -1,0 +1,98 @@
+body {
+    height: 100vh;
+}
+
+#back {
+  min-width: 100vh;
+  min-height: 100vh;
+  padding-top: 15%;
+  display: block;
+  position: relative;
+}
+
+#back::after {
+  content: "";
+  background: url("../images/mic.jpg");
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.search {
+  border-radius: 25px;
+  border: white solid 2px;
+  opacity: 0.98;
+  padding-top: 10%;
+  height: 20vh;
+  width: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-color: #566172;
+}
+
+.showEps {
+  cursor: pointer;
+}
+
+#searchInput {
+  background-color: #566172;
+  text-align: center;
+  height: 35px;
+  color: white;
+  border-radius: 10px;
+  font-size: 24px;
+}
+
+#main {
+  border-radius: 25px;
+  border: white solid 2px;
+  width: 100vh;
+  background-color: #566172;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 10px;
+}
+
+#showList {
+  list-style: none;
+}
+
+#showList > li {
+  display: inline-block;
+  padding: 10px;
+}
+
+#eps {
+  border-radius: 25px;
+  border: white solid 2px;
+  width: 100vh;
+  background-color: #566172;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 10px;
+  color: white;
+}
+
+#epList {
+  list-style: none;
+}
+
+#epList > li > a {
+  color: white;
+  font-family:'Roboto', sans-serif;
+}
+
+#epList > li > a:visited {
+  color: #dbd9d0;
+}
+
+#reload {
+  margin-left: 40% !important;
+}
